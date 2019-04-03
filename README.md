@@ -9,15 +9,17 @@ BandPass Filter Model into simulink :
 
 So, by Cascading the HighPass and LowPass filters together I obtain a BandPass Filter.
 
-The range of BandPass filter = [fc1 , fc2]
+The range of BandPass filter = [fc1 , fc2].\
 
-fc1 : Cutoff frequency of HighPass filter.
-fc2 : Cutoff frequency of LowPass filter.
+fc1 : Cutoff frequency of HighPass filter.\
+fc2 : Cutoff frequency of LowPass filter.\
 
-fc1 = 1/(2*pi*R1*C1)
+fc1 = 1/(2*pi*R1*C1)\
 fc2 = 1/(2*pi*R2*C2)
 
 In this example I have chosen fc1 = 16Khz and fc2 = 24 Khz.
+
+By fixing the values of the R1 and R2 you can find the values C1 and C2.
 
 A : Gain = 1+(R4/R3)
 
