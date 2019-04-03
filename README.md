@@ -5,7 +5,7 @@ To achieve this goal, I started by implementing the LowPass and HighPass filters
 
 Circuit of BandPass : 
 
-
+![Untitled](https://user-images.githubusercontent.com/43390471/55493937-2166fc00-563a-11e9-9f1f-8a3394560ef0.png)
 
 BandPass Filter Model into simulink : 
 
