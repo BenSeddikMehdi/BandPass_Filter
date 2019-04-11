@@ -1,7 +1,7 @@
 # BandPass_Filter
 I implemented a BandPass Filter of 2nd Order into simulink by using Analog components : Resistors and Capacitors.
 
-To achieve this goal, I started by implementing the LowPass and HighPass filters separately and ended up adding an amplifier to amplify my signal.
+To achieve this goal, I started by implementing the LowPass and HighPass filters separately and ended up by adding an amplifier to amplify my signal.
 
 Circuit of BandPass : 
 
@@ -27,7 +27,7 @@ By fixing the values of the R1 and R2 you can find the values C1 and C2.
 
 Amplification := 1+(R4/R3)
 
-Digram Bode : 
+Bode Diagram : 
 
 ![Bode_Diagram_And_3db_Values](https://user-images.githubusercontent.com/43390471/55466112-d24fa580-55fe-11e9-9c9d-7f81c5515157.png)
 
