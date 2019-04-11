@@ -1,6 +1,6 @@
 # BandPass_Filter
 
-I implemented a BandPass Filter of 2nd Order into simulink by using Analog components : Resistors , Capacitors.
+I implemented a BandPass Filter of 2nd Order into simulink by using Analog components : Resistors , Capacitors and Op.
 
 To achieve this goal, I started by implementing the LowPass and HighPass filters separately and ended up by adding an amplifier to amplify(increase) my signal's amplitude.
 
